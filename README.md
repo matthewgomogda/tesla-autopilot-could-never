@@ -1,4 +1,4 @@
-# PyOOP -Lane-Detection || python object oriented programming - lane detection solutions. 
+# Lane-Detection 
 This project aims to solve various issues currently surrounding the failed auto-pilot systems founded by Tesla. 
 
 The solution is simple. This project aims to demonstrate the practical application of Deep Learning methods for computer vision to navigate on Autopilot, movement prediction of real-time environmentswhich actively guides your car through highway driving, suggesting lane changes, navigating etc...
