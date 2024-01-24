@@ -1,4 +1,4 @@
-# LaneNet-Lane-Detection
+# POOPy -Lane-Detection
 
 This project aims to solve various issues currently surrounding the failed auto-pilot systems founded by Tesla. 
 
