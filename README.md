@@ -1,6 +1,13 @@
 # LaneNet-Lane-Detection
-Use tensorflow to implement a Deep Neural Network for real time lane detection mainly based on the IEEE IV conference 
-paper "Towards End-to-End Lane Detection: an Instance Segmentation Approach".You can refer to their paper for details 
+
+This project aims to solve various issues currently surrounding the failed auto-pilot systems founded by Tesla. 
+
+The solution is simple. This project aims to demonstrate the practical application of Deep Learning methods for computer vision to navigate on Autopilot, movement prediction of real-time environmentswhich actively guides your car through highway driving, suggesting lane changes, navigating etc...
+
+ For this purpose, I will be focusing on movement prediction of real-time environments. In particular, automed vehicles (not exclusive to cars).
+
+This will require use of tensorflow to implement a Deep Neural Network for real time lane detection. 
+mainly based on the IEEE IV conference paper "Towards End-to-End Lane Detection: an Instance Segmentation Approach".You can refer to their paper for details 
 https://arxiv.org/abs/1802.05591. This model consists of a encoder-decoder stage, binary semantic segmentation stage 
 and instance semantic segmentation using discriminative loss function for real time lane detection task.
 
@@ -118,7 +125,7 @@ Please cite my repo [lanenet-lane-detection](https://github.com/MaybeShewill-CV/
 ## Segment-Anything-U-Specify
 
 You must be interested in recently released SAM model. Here's a repo using clip + sam to segment any instances you specify.
-[segment-anything-u-specify](https://github.com/MaybeShewill-CV/segment-anything-u-specify).
+[segment-anything-u-specify](https://github.com/matthewgomogda/AUTOMATED-DRIVING-SOLUTIONS).
 
 <p align="left">
   <img src='./data/source_image/sam_clip_seg.png' alt='segment-anything-u-specify'>
@@ -170,7 +177,7 @@ config/tusimple_lanenet.yaml config file to choose the front-end of lanenet mode
 New lanenet model trainned based on BiseNetV2 can be found [here](https://www.dropbox.com/sh/0b6r0ljqi76kyg9/AADedYWO3bnx4PhK1BmbJkJKa?dl=0)
 
 [BaiduNetDisk](https://pan.baidu.com/s/1sLLSE1CWksKNxmRIGaQn_A) is available too.
-You can download here https://pan.baidu.com/s/1sLLSE1CWksKNxmRIGaQn_A and extract code is `86sd`
+-- download here https://pan.baidu.com/s/1sLLSE1CWksKNxmRIGaQn_A and extract code is `86sd`
 
 The new model can reach 78 fps in single image inference process.
 
@@ -238,34 +245,12 @@ cd MNN_PROJECT_ROOT_DIR/tools/converter/build
 Add lanenet source code into MNN project and modified CMakeList.txt to 
 compile the executable binary file.
 
-## Status
-
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/ffa5169a3a4002d4f573b12be173c9382d14b78a.svg "Repobeats analytics image")
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=MaybeShewill-CV/lanenet-lane-detection&type=Date)](https://star-history.com/#MaybeShewill-CV/lanenet-lane-detection&Date)
-
-## TODO
-- [x] Add a embedding visualization tools to visualize the embedding feature map
-- [x] Add detailed explanation of training the components of lanenet separately.
-- [x] Training the model on different dataset
-- ~~[ ] Adjust the lanenet hnet model and merge the hnet model to the main lanenet model~~
-- ~~[ ] Change the normalization function from BN to GN~~
 
 ## Acknowledgement
 
-The lanenet project refers to the following projects:
+references used in this project gathered from the following projects:
 
+-[lanenet-lane-detection](https://github.com/MaybeShewill-CV/lanenet-lane-detection)
 - [MNN](https://github.com/alibaba/MNN)
 - [SimpleDBSCAN](https://github.com/CallmeNezha/SimpleDBSCAN)
 - [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)
-
-## Visitor Count
-
-![Visitor Count](https://profile-counter.glitch.me/15725187_lanenet/count.svg)
-
-## Contact
-
-Scan the following QR to disscuss :)
-![qr](./data/source_image/qr.jpg)
