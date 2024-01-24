@@ -19,13 +19,12 @@ pip3 install -r requirements.txt
 ```
 
 ## Test model
-In this repo I uploaded a model trained on tusimple lane dataset [Tusimple_Lane_Detection](http://benchmark.tusimple.ai/#/).
-The deep neural network inference part can achieve around a 50fps which is similar to the description in the paper. But
-the input pipeline I implemented now need to be improved to achieve a real time lane detection system.
+model dataset -- [Tusimple_Lane_Detection](http://benchmark.tusimple.ai/#/).
+DNN inference achieves ~50fps -  the input pipeline needs to be improved to achieve a real time lane detection system.
 
-The trained lanenet model weights files are stored in 
-[lanenet_pretrained_model](https://www.dropbox.com/sh/0b6r0ljqi76kyg9/AADedYWO3bnx4PhK1BmbJkJKa?dl=0). You can 
-download the model and put them in folder weights/tusimple_lanenet/
+model weights + files stored -- [lanenet_pretrained_model](https://www.dropbox.com/sh/0b6r0ljqi76kyg9/AADedYWO3bnx4PhK1BmbJkJKa?dl=0). 
+
+* download model --> weights/tusimple_lanenet/
 
 You may also download the pretrained model via [BaiduNetDisk here](https://pan.baidu.com/s/1sLLSE1CWksKNxmRIGaQn_A) and
 extract code is `86sd`.
