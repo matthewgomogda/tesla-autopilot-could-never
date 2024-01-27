@@ -1,7 +1,8 @@
 # Lane-Detection 
-This project aims to solve various issues currently surrounding auto-pilot systems. 
 
-The solution is simple: to demonstrate the practical application of Deep Learning methods for computer vision to navigate on Autopilot, movement prediction of real-time environmentswhich actively guides your car through highway driving, suggesting lane changes, navigating etc...
+ - This project aims to solve various issues currently surrounding auto-pilot systems and aims to demonstrate the practical application of Deep Learning methods.
+
+ - Using computer vision to navigate safer autonomous driving systems and actively guide vehicles through highway driving, suggesting lane changes, navigating etc...
 
  For this purpose, I will be focusing on movement prediction of real-time environments. In particular, automed vehicles (not exclusive to cars).
 
