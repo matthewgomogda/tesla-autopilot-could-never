@@ -1,4 +1,5 @@
-# Deep Neural Network for real-time autopilot
+# Movement Prediction for Real-Time Environments 
+* DNN -> Computer Vision -> Autopilot
 
  - This project aims to solve various issues currently surrounding auto-pilot systems and aims to demonstrate the practical application of Deep Learning methods.
 
