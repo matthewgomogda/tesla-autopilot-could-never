@@ -1,11 +1,10 @@
 # Movement Prediction for Real-Time Environments 
 * DNN -> Computer Vision -> Autopilot
 
- - This project aims to solve various issues currently surrounding auto-pilot systems and aims to demonstrate the practical application of Deep Learning methods.
+ - This project aims to solve various issues currently surrounding auto-pilot systems and aims to demonstrate the practical application of Deep Learning methods Using computer vision to navigate safer autonomous driving systems and actively guide vehicles through highway driving, suggesting lane changes, navigating etc... For this purpose, I will be focusing on movement prediction of real-time environments. In particular, automed vehicles (not exclusive to automobile ).
 
- - Using computer vision to navigate safer autonomous driving systems and actively guide vehicles through highway driving, suggesting lane changes, navigating etc...
-
- For this purpose, I will be focusing on movement prediction of real-time environments. In particular, automed vehicles (not exclusive to cars).
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+For this purpose, I will be focusing on movement prediction of real-time environments for various types of vehicles (not exclusive to automobiles).
 
 This will require use of tensorflow to implement a Deep Neural Network for real time lane detection. 
 mainly based on the IEEE IV conference paper "Towards End-to-End Lane Detection: an Instance Segmentation Approach".You can refer to their paper for details 
