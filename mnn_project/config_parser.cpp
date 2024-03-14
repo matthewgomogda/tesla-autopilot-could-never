@@ -1,7 +1,5 @@
 /************************************************
-* Author: MaybeShewill-CV
-* File: configParser.cpp
-* Date: 2019/10/10 上午10:39
+
 ************************************************/
 
 #include "config_parser.h"
