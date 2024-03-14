@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# @Time    : 2020/4/9 上午11:05
-# @Author  : MaybeShewill-CV
-# @Site    : https://github.com/MaybeShewill-CV/bisenetv2-tensorflow
-# @File    : bisenet_v2.py
-# @IDE: PyCharm
+
 """
 BiseNet V2 Model
 """
